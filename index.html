@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fin'Breizh — Marchés Publics & Subventions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F2C59;
+      --accent: #5E9338;
+      --bg-light: #F8FAFC;
+      --text: #1E293B;
+      --text-muted: #64748B;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; color: var(--text); background: #fff; line-height: 1.6; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; background: #fff; border-bottom: 1px solid #E2E8F0; position: sticky; top: 0; z-index: 10; }
+    .logo { font-size: 1.6rem; font-weight: 800; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    nav a { margin-left: 1.5rem; text-decoration: none; color: var(--text); font-weight: 500; font-size: 0.95rem; }
+    .btn { background: var(--accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-block; }
+    .btn-primary { background: var(--primary); }
+    .hero { text-align: center; padding: 5rem 5% 4rem; background: var(--bg-light); }
+    .hero h1 { font-size: 2.5rem; color: var(--primary); max-width: 800px; margin: 0 auto 1.5rem; font-weight: 800; line-height: 1.2; }
+    .hero p { font-size: 1.15rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 2rem; }
+    .trust-bar { display: flex; justify-content: center; gap: 2rem; padding: 2rem 5%; background: var(--primary); color: #fff; flex-wrap: wrap; text-align: center; }
+    .trust-item { font-size: 0.95rem; font-weight: 500; }
+    .section { padding: 4rem 5%; max-width: 1100px; margin: 0 auto; }
+    .section-title { text-align: center; font-size: 1.8rem; color: var(--primary); margin-bottom: 3rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .card { background: var(--bg-light); padding: 2rem; border-radius: 8px; border: 1px solid #E2E8F0; }
+    .card h3 { color: var(--primary); margin-bottom: 1rem; }
+    .cta-banner { background: var(--bg-light); text-align: center; padding: 4rem 5%; border-top: 1px solid #E2E8F0; }
+    footer { background: var(--primary); color: #8BE343; padding: 3rem 5% 1.5rem; font-size: 0.9rem; }
+    .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 1100px; margin: 0 auto 2rem; color: #E2E8F0; }
+    .footer-grid h4 { color: #fff; margin-bottom: 1rem; }
+    .footer-grid a { color: #CBD5E1; text-decoration: none; display: block; margin-bottom: 0.5rem; }
+    .footer-bottom { text-align: center; color: #94A3B8; border-top: 1px solid #1E293B; padding-top: 1.5rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">Fin'<span>Breizh</span></a>
+    <nav>
+      <a href="#services">Prestations</a>
+      <a href="#methode">Méthode</a>
+      <a href="#apropos">À propos</a>
+      <a href="mailto:contact@finbreizh.bzh" class="btn">Prendre RDV</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Gagnez des marchés publics et des subventions, sans y passer vos nuits.</h1>
+    <p>FIN’BREIZH accompagne les TPE, PME et acteurs bretons dans la réponse aux appels d'offres publics et le montage de financements. Une expertise pragmatique et ancrée sur le territoire.</p>
+    <a href="mailto:contact@finbreizh.bzh" class="btn">Évaluer mes opportunités</a>
+  </section>
+
+  <div class="trust-bar">
+    <div class="trust-item">✓ 7 ans d'expertise administrative</div>
+    <div class="trust-item">✓ 100 % sur-mesure</div>
+    <div class="trust-item">✓ Ancrage Breton</div>
+  </div>
+
+  <section class="section" id="services">
+    <h2 class="section-title">Nos domaines d'expertise</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>01. Marchés Publics & AMO</h3>
+        <p>Analyse du DCE, rédaction optimisée du mémoire technique, montage du pli administratif (DC1, DC2) et dépôt de votre offre.</p>
+      </div>
+      <div class="card">
+        <h3>02. Recherche & Subventions</h3>
+        <p>Identification des guichets de financement (Région, État, ADEME...), constitution des dossiers de demande et suivi administratif.</p>
+      </div>
+      <div class="card">
+        <h3>03. Prescription & Réseau B2B</h3>
+        <p>Mise en relation ciblée entre entreprises pour des besoins techniques spécifiques et développement de partenariats locaux.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner" id="apropos">
+    <h2 style="color: var(--primary); margin-bottom: 1rem;">Un partenaire de proximité en Bretagne</h2>
+    <p style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-muted);">Fondée par Yoann ROBIN PELLERIN, FIN’BREIZH apporte aux entreprises bretonnes la double culture administrative et commerciale nécessaire pour remporter leurs dossiers.</p>
+    <a href="mailto:contact@finbreizh.bzh" class="btn btn-primary">Contact direct</a>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem;">Fin'Breizh</h4>
+        <p>Gagnez des marchés publics et des subventions, sans y passer vos nuits.</p>
+        <p style="margin-top: 1rem; color: #fff;">contact@finbreizh.bzh</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="#services">Prestations</a>
+        <a href="#methode">Méthode</a>
+        <a href="#apropos">À propos</a>
+      </div>
+      <div>
+        <h4>Ancrage</h4>
+        <p>Treffléan & Bretagne</p>
+        <p>Interventions Grand Ouest</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Fin'Breizh — Tous droits réservés.
+    </div>
+  </footer>
+
+</body>
+</html>
